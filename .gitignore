@@ -1,0 +1,13 @@
+*.log
+*.swo
+*.swp
+.DS_Store
+.idea/
+.scripts/
+.vagrant/
+bin/
+dist/
+coverage/
+dev/
+node_modules/
+package-lock.json
