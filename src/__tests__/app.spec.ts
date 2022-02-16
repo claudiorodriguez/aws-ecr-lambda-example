@@ -46,7 +46,7 @@ describe('app handler', () => {
     const response = await (handler as TestHandler)(event);
 
     expect(response).toEqual({
-      body: JSON.stringify({repos: ['repo1', 'repo2', 'repo3']}),
+      body: JSON.stringify({repos: ['repo1', 'repo2', 'repo3'], version: 1}),
       statusCode: 200
     });
   });
